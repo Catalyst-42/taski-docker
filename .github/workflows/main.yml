@@ -1,4 +1,11 @@
-  frontend_tests:
+name: Taski main workflow
+
+on:
+  push:
+    branches:
+      - main
+
+frontend_tests:
     runs-on: ubuntu-latest
 
     steps:
